@@ -12,3 +12,5 @@ check :: String -> Bool
 check st 
         | length st >= 0 = True
         | otherwise      = False
+
+parseWords :: 
